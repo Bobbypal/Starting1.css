@@ -1,0 +1,27 @@
+/*paragraph tag to red*/
+P{
+   color: red;
+}
+
+/*Set the CSS for all elements with a class of "note" to "font-size: 20px*/
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/*ID selectors target elements*/
+#id-selector-demo{
+    color: green;
+}
+
+/*Attribute selectors*/
+li[value="4"]{
+    color: blue;
+}
+
+/*align to center*/
+        *{
+            text-align: center;
+
+        }
